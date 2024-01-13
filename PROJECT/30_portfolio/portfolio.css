@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+    scroll-behavior: smooth;
+}
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto; /* Center the element horizontally */
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* vertically center hoga */
+    padding-top:1rem;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: baseline; /* same line me honge */
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+}
+.logo-text{
+    margin-left: -1.2rem;
+    font-size: 28px;
+}
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-items div a{
+    color: black;
+}
+a{
+    text-decoration: none; /* for removing underline  */
+}
+
+.nav-items div:hover{
+    transition: 0.8s;
+    font-weight: bold;
+}
+
+
+/* hero section */
+
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* designer */
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+
+.faded-text{
+    user-select: none;
+    
+    /* designer */
+    font-size: 7em;
+    color: rgb(231,231,231);
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}

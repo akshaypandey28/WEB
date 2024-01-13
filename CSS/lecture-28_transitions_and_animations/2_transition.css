@@ -1,0 +1,28 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    border: 2px solid orange;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: aqua;
+    /* transition: 2s; */
+    /* transition-property: background-color ; */ /* writing all is bad performance */
+    /* transition-delay: 5s; */
+
+    /* transition: all 5s ease 3s; */
+    transition: transform 3s ease-in; /* speed less in starting more in end */
+    /* also a cubic-bezier */
+}
+
+.box:hover{
+    /* background-color: brown; */
+    /* transform: rotate(45deg); */
+    transform: translateX(500px);
+}

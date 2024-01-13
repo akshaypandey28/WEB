@@ -1,0 +1,37 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 30px 150px 400px 30px;
+    grid-template-columns: 400px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "hd" /* har row me jitne columns honge sbki naming krni hoti hai and kitne bhi naming kiye ja skte hai*/
+    "side"
+    "main"
+    "ft";  /* naming of the rows */
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    /* height: 100px;
+    width: 100px; */
+}
+
+#header{
+    grid-area: hd;
+}
+
+#footer{
+    grid-area: ft;
+}
+
+#sidebar{
+    grid-area: side;
+}
+
+#content{
+    grid-area: main;
+}
