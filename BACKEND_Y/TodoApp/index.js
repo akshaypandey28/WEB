@@ -7,6 +7,7 @@ const app=express(); //app is a new application object
 const bodyparser=require('body-parser'); //helps to read the incoming body data object and try to parse it in the form of
 //corresponding json
 
+const {PORT}=require('./config/serverConfig'); //it takes an object
 
 const port=3000;
 
@@ -30,7 +31,7 @@ app.get('/ping',(request,response) => {
     console.log(request.query); //request.query is js object
     console.log(request.body); //request.body is js object
 
-    response.json({message:'ping received'});
+    response.json({message:'ping received!'});
 }); //takes two arguments one is route as a string and second is callback and this callback receives two parameters (req ,res )
 
 
@@ -47,10 +48,13 @@ app.post( '/categories/:category/products/:id' , (request,response) => {
 
 
 //1. using the app object ,bind it to a port u want your server to listen for socket connection
-app.listen(port,() => { 
+app.listen(PORT,() => {  //(1)=> firstly this has been done here port is replaced by process.env.PORT
+//(2)=> and second after creating the config folder process.env.PORT is replaced by PORT and here PORT is key value pair from object
 // this callback is useful to do any action post the server is created
 // callback is executed once we successfully bind out object to the port
-    console.log("server started at the port 3000");
+
+    //console.log(process.env);
+    console.log(`server started at the port ${PORT}`);
 });//listen method takes two parameters  1=> port number  2=>callback
 
 

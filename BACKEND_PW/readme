@@ -1,0 +1,17 @@
+To setup the project:
+
+    1.create empty directory
+
+```
+npm init
+```
+it contains package.json
+
+
+```
+npm install express
+```
+it adds node_modules , package-lock.json , dependencies in package.json that is "express"
+
+
+

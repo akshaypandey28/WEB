@@ -1,0 +1,13 @@
+open terminal
+
+copy paste with vite
+
+copy paste with -p
+
+go into tailwind make *
+
+in package json make scripts "start":"vite"
+
+create main.css and insert the three lines and link it with html file
+
+open terminal npm run start
