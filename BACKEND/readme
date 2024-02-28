@@ -4,9 +4,7 @@ To setup the project:
 
 ```
 npm init
-
 ```
-[![npm init](https://img.shields.io/badge/npm-init-blue.svg)](https://docs.npmjs.com/cli/v7/commands/npm-init)
 
     it contains package.json
 
