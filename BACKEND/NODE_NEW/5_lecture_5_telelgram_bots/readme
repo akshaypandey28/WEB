@@ -1,0 +1,15 @@
+To setup the project:
+
+1.create empty directory
+
+```
+npm init
+
+```
+it contains package.json
+
+```
+npm i telegraf
+```
+for telegram bots
+

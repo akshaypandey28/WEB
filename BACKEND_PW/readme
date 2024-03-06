@@ -1,17 +1,35 @@
-To setup the project:
+To setup the project: i.e node project
 
-    1.create empty directory
+1.create empty directory
 
+it contains package.json i.e
 ```
 npm init
 ```
-it contains package.json
 
 
+it adds node_modules , package-lock.json , dependencies in package.json that is "express" i.e
 ```
 npm install express
 ```
-it adds node_modules , package-lock.json , dependencies in package.json that is "express"
+
+
+it adds dependencies of mongodb i.e
+```
+npm install mongoose
+```
+
+
+
+for running the index.js file which is for the node.js i.e
+```
+node index.js
+```
+
+for automatic changes i.e
+```
+nodemon index.js
+```
 
 
 

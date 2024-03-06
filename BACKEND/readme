@@ -1,10 +1,8 @@
 To setup the project:
 
-    1.create empty directory
+1.create empty directory
 
 ```
 npm init
 ```
-
-    it contains package.json
-
+it contains package.json

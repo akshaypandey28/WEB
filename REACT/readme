@@ -1,0 +1,14 @@
+for installation
+```
+npx create-react-app app_name
+```
+
+for updating npm
+```
+npm install -g npm
+```
+
+for running install npm packages
+```
+npm install
+```
