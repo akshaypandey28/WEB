@@ -23,13 +23,13 @@ function App() {
         <div className='font-bold gap-12 text-5xl'>
           {count}
         </div>
-        <div onClick={InreaseHandler} className='border-l-2 text-center w-20 border-[#bfbfbf] text-5xl cursor-pointer'>
+        <button onClick={InreaseHandler} className='border-l-2 text-center w-20 border-[#bfbfbf] text-5xl cursor-pointer'>
           +
-        </div>
+        </button>
       </div>
 
       <button onClick={resetHandler} className='bg-[#0398d4] text-white px-5 py-2 rounded-sm text-lg' >
-        reset
+        Reset
       </button>
     </div>
   );

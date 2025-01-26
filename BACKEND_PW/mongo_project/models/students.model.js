@@ -11,7 +11,6 @@ const studentSchema=new mongoose.Schema({
     age:Number
 })
 
-
 //go ahead and create corresponding collection in DB
 module.exports=mongoose.model("Student",studentSchema);
 //mongoose.model("Student",studentSchema); Student is the name of the collection and all the records will be stored in the Student

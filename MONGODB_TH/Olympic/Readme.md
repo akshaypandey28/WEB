@@ -1,0 +1,3 @@
+- npm init -y
+- npm run dev
+- type nul > app.js

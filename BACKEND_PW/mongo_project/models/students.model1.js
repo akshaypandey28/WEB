@@ -33,4 +33,4 @@ const studentSchema=new mongoose.Schema({
 //go ahead and create corresponding collection in DB
 module.exports=mongoose.model("Student",studentSchema);
 //mongoose.model("Student",studentSchema); Student is the name of the collection and all the records will be stored in the Student
-//that is documents will be stored in the collections and Student is in the plural form Students
+//that is documents will be stored in the collections and Student is in the plural form Students and in lowercase

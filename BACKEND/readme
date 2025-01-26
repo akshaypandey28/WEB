@@ -1,7 +1,8 @@
 To setup the project:
 
 1.create empty directory
-
+### set up the project
+- go inside this
 ```
 npm init
 ```

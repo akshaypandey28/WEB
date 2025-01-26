@@ -1,14 +1,44 @@
-for installation
+# for installation
 ```
 npx create-react-app app_name
 ```
 
-for updating npm
+# for updating npm
 ```
 npm install -g npm
 ```
 
-for running install npm packages
+# for running install npm packages
 ```
 npm install
+```
+
+
+
+# for vite
+```
+npm create vite@latest
+
+npm i
+```
+
+# for tailwind
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+# next step in tailwind config
+```
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+],
+```
+
+# next step in index.css
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
